@@ -1,0 +1,81 @@
+# Python / general
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# Logs & databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Environment variables (but keep .env.example if you have one)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories (if you use pipenv / poetry lock files etc.)
+Pipfile.lock
+poetry.lock
+
+# Testing / coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.pytest_cache/
+.pytest_cache/
+coverage/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+~*
+
+# PostgreSQL related (if you ever dump locally)
+*.dump
+*.backup
