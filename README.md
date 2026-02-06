@@ -76,3 +76,80 @@ uvicorn app.main:app --reload
 ## Troubleshooting
 - Database connection errors: verify DATABASE_URL and that PostgreSQL is running.
 - Dependency issues: recreate virtual environment and reinstall from requirements.txt.
+
+# Financial Health Frontend
+
+A modern React-based web application for analyzing and managing personal financial health. This frontend application provides users with tools to upload financial data, register accounts, and visualize financial metrics through an interactive dashboard.
+
+## Features
+
+- **User Registration**: Secure user account creation and authentication
+- **Financial Data Upload**: Upload and process financial documents and data
+- **Analysis Dashboard**: Interactive visual analytics for financial health metrics
+- **Real-time Insights**: Comprehensive financial analysis and reporting
+
+## Tech Stack
+
+- **React** 18.2.0 - UI library
+- **React Router DOM** 6.30.3 - Client-side routing
+- **Recharts** 2.15.4 - Data visualization
+- **Axios** 1.13.4 - HTTP client
+- **CSS3** - Styling
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd financial-health-frontend
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Configure environment variables by creating a .env file in the root directory:
+```bash
+REACT_APP_API_URL=<your-api-endpoint>
+```
+### Development
+Start the development server:
+```bash
+npm start
+```
+### Build
+Create an optimized production build:
+```bash
+npm run build
+```
+- Output will be generated in the build/ directory.
+
+### Project Structure
+src/
+├── components/           # Reusable React components
+│   ├── AnalysisDashboard.js
+│   ├── UploadForm.js
+│   └── UserRegister.js
+├── pages/               # Page components
+│   ├── Home.js
+│   └── FinancialPage.js
+├── App.js              # Main application component
+├── index.js            # Application entry point
+├── index.css           # Global styles
+└── reportWebVitals.js  # Performance monitoring
+
+### Available Scripts
+npm start - Run development server
+npm build - Create production build
+npm test - Execute test suite
+npm eject - Eject from Create React App (irreversible)
+
+### Browser Support
+Works on all modern browsers as specified in browserslist:
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
