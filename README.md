@@ -129,6 +129,7 @@ npm run build
 - Output will be generated in the build/ directory.
 
 ### Project Structure
+```
 src/
 ├── components/           # Reusable React components
 │   ├── AnalysisDashboard.js
@@ -141,6 +142,7 @@ src/
 ├── index.js            # Application entry point
 ├── index.css           # Global styles
 └── reportWebVitals.js  # Performance monitoring
+```
 
 ### Available Scripts
 npm start - Run development server
